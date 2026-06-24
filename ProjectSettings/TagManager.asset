@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - ForeGround
   - 
   - 
   - 
@@ -41,3 +41,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1862877999
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2179785397
+    locked: 0
+  - name: Tree
+    uniqueID: 624531139
+    locked: 0
+  - name: Grass
+    uniqueID: 504196377
+    locked: 0
+  - name: Sp
+    uniqueID: 146459293
+    locked: 0
+  - name: Stairs1
+    uniqueID: 1209685429
+    locked: 0
+  - name: Stairs2
+    uniqueID: 2255130741
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
