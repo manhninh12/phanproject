@@ -790,7 +790,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 2.92
+  orthographic size: 3.58
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -815,7 +815,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5078,8 +5078,8 @@ Tilemap:
   - first: {x: -14, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileIndex: 16
+      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6015,7 +6015,7 @@ Tilemap:
     m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0201679bc1200bd4495bb8b44d8c9cb7, type: 2}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: 11400000, guid: 4af12708c3f38da46a8e0a33acc271e3, type: 2}
   - serializedVersion: 2
     m_RefCount: 1
@@ -6036,8 +6036,8 @@ Tilemap:
     m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 96db2ff6367402b4e8fe0f8a089c4254, type: 2}
   - serializedVersion: 2
-    m_RefCount: 0
-    m_Data: {fileID: 11400000, guid: bc6114c8a15962b4cb6e9c7b0fe42a2d, type: 2}
+    m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c379896329d2725409d72c9c2e44ab41, type: 2}
   - serializedVersion: 2
     m_RefCount: 2
     m_Data: {fileID: 11400000, guid: ec8034252ca3f6748980ebc24123e96b, type: 2}
@@ -6091,7 +6091,7 @@ Tilemap:
     m_RefCount: 1
     m_Data: {fileID: -1417204807, guid: 61ab96242bc1ed94282d825263d2c20e, type: 3}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: -6045269988124551188, guid: 61ab96242bc1ed94282d825263d2c20e, type: 3}
   - serializedVersion: 2
     m_RefCount: 1
@@ -6112,8 +6112,8 @@ Tilemap:
     m_RefCount: 1
     m_Data: {fileID: -1042394959, guid: 61ab96242bc1ed94282d825263d2c20e, type: 3}
   - serializedVersion: 2
-    m_RefCount: 0
-    m_Data: {fileID: -908564019, guid: 61ab96242bc1ed94282d825263d2c20e, type: 3}
+    m_RefCount: 1
+    m_Data: {fileID: 6831165330611300861, guid: 61ab96242bc1ed94282d825263d2c20e, type: 3}
   - serializedVersion: 2
     m_RefCount: 2
     m_Data: {fileID: 1868524796, guid: 61ab96242bc1ed94282d825263d2c20e, type: 3}
@@ -6312,12 +6312,8 @@ CompositeCollider2D:
       - X: -130000000
         Y: -20000000
       - X: -130000000
-        Y: -10000000
-      - X: -139687504
-        Y: -10000000
-      - X: -140000000
         Y: -10312500
-      - X: -140000000
+      - X: -130937504
         Y: -10000000
       - X: -250000000
         Y: -10000000
@@ -6355,10 +6351,8 @@ CompositeCollider2D:
       - {x: 9, y: -1.6875056}
       - {x: 8.99997, y: -2}
       - {x: -13, y: -1.9999707}
-      - {x: -13.00003, y: -1}
-      - {x: -13.968759, y: -1.0000076}
-      - {x: -14, y: -1.0311626}
-      - {x: -14.000029, y: -1}
+      - {x: -13.000019, y: -1.0312438}
+      - {x: -13.093755, y: -1}
       - {x: -25, y: -1.0000293}
       - {x: -24.999971, y: -6}
     - - {x: 24, y: 2.0000293}
@@ -6909,7 +6903,7 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetOffset: {x: 0, y: 0.5, z: 0}
   Damping: {x: 1, y: 1, z: 1}
   Lookahead:
     Enabled: 0
@@ -6941,7 +6935,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 2.92
+    OrthographicSize: 3.58
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -6968,7 +6962,7 @@ Transform:
   m_GameObject: {fileID: 1930340427}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
